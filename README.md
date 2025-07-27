@@ -49,3 +49,10 @@ A simple, visually appealing, and interactive **Financial Dashboard** built usin
    ```bash
    git clone https://github.com/your-username/financial-dashboard.git
    cd financial-dashboard
+
+# 👨‍💻 Author
+
+Md. Kaif Akhtar
+💼 B.Tech CSE, MANUU, Hyderabad
+🌐 GitHub Portfolio
+📫 Email: akhtarkaif004@gmail.com
