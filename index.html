@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Financial Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Financial Dashboard</h1>
+    <div class="login-section" id="loginSection">
+      <input type="text" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
+    </div>
+
+    <div class="dashboard-section hidden" id="dashboardSection">
+      <h2>Welcome, <span id="userRole"></span></h2>
+      <button onclick="logout()">Logout</button>
+    
+      <h3>Enter Monthly Revenue (Line Chart)</h3>
+      <input type="text" id="lineInput" placeholder="e.g., 1000,1500,2000,1800,2200,2500" />
+    
+      <h3>Enter Distribution (Pie Chart)</h3>
+      <input type="text" id="pieInput" placeholder="e.g., 40,30,30" />
+    
+      <button onclick="renderCharts()">Generate Charts</button>
+    
+      <canvas id="lineChart" width="400" height="200"></canvas>
+      <canvas id="pieChart" width="400" height="200"></canvas>
+    </div>
+    
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
