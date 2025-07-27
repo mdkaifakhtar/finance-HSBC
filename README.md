@@ -26,6 +26,25 @@ A simple, visually appealing, and interactive **Financial Dashboard** built usin
 
 ## 🧪 How to Use
 
+    Login:
+
+        Enter any email & password (e.g., test@gmail.com / 123456)
+
+        Click the Login button.
+
+    Input Data:
+
+        For Line Chart, enter values like: 1000, 1500, 1800, 2200
+
+        For Pie Chart, enter values like: 50, 30, 20
+
+    Generate Charts:
+
+        Click Generate Charts and view the visual representation.
+
+    Logout:
+
+        Click the Logout button to return to the login screen.
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/your-username/financial-dashboard.git
